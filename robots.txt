@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://crypton-brocko.netlify.app/sitemap.xml
+Host: https://crypton-brocko.netlify.app
