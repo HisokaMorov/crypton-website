@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+button{
+    cursor: pointer;
+    transition: all ease-in-out;
+    animation: anim-button 2s linear 0s infinite alternate;
+    border: none;
+    outline: none;
+}
+button:hover{
+    transform: scale(1.2);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@keyframes anim-button{
+    0%{
+        box-shadow: none;
+    }
+    100%{
+        box-shadow: 0 0 20px 1px white;
+    }
+
+}

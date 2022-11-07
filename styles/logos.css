@@ -1,0 +1,30 @@
+
+.logos{
+    background-color: rgb(10,22,70);
+    width: 100vw;
+    padding: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-1, .logo-2, .logo-3, .logo-4{
+    height: 5rem;
+}
+@media (max-width: 950px){
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+        row-gap: 4rem;
+        place-items: center;
+        padding: 3rem 6rem;
+    }
+}
+@media (max-width: 530px){
+    .logos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 3rem;
+    }
+}
